@@ -1,0 +1,81 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Abril Fatface';
+}
+
+.col-md-4 {
+  width: 25%;
+}
+
+.col-md-8 {
+  width: 75%;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+th, td {
+  border: 1px solid #3385ff;
+  padding: 6px 10px;
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.contacts-list {
+  padding: 20px;
+}
+
+button.add-contact  {
+  color: #3385ff;
+  border-color: #ccc;
+  background-color: #fff;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #3385ff;
+  -webkit-transition: color 0.5s, background-color 0.5s;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+button.add-contact:hover {
+  color: #fff;
+  background-color: #3385ff;
+  box-shadow: 0 0 5px #3385ff;
+}
+button.add-contact:focus {
+  outline: none;
+}
+
+.input-text {
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 6px 8px;
+  border: 1px solid;
+  border-color: #ccc;
+  margin: 4px;
+  -webkit-transition: border 0.5s, box-shadow 0.5s;
+  transition: border 0.5s, box-shadow 0.5s;
+}
+
+.input-text:hover {
+  border: 1px solid  #3385ff;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #3385ff;
+}
+
+.input-text:focus {
+  outline: none;
+}
+
+h1 {
+  margin-left: 20px;
+  color: #3385ff;
+}
