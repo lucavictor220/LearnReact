@@ -1,0 +1,20 @@
+{
+  "name": "learnreact",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "vitiok"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/lucavictor220/LearnReact",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^4.6.3"
+  }
+}
